@@ -1,0 +1,84 @@
+.nav{
+    background-color: darkcyan;
+    background-size: cover;
+    position: sticky;
+    top: 1px;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+
+}
+.a1{
+    text-decoration: none;
+}
+li{
+    color:white;
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 500px;   
+    padding-left: 40px;
+}
+.button1{
+    background-color: darkslategray;
+    color: white;
+}
+.button1:active{
+    background-color: red;
+}
+.navimg{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    left:200px;
+    bottom: 30px;
+}
+.bgimg{
+    background-image: url("https://tentgram-web.s3.amazonaws.com/media/wyanad-900-kandi-aframe-cabin.jpg");
+    background-size: cover;   
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    top: 20px;
+}
+
+.text1{
+    font-size: 60px;
+    color:rgb(5, 67, 90);
+    position: relative;
+    left: 300px;
+    top:200px;
+}
+.text2{
+    font-size: 25px;
+    color:rgb(246, 247, 247);
+    position: relative;
+    left: 300px;
+    top:200px;
+}
+.form1{
+    border-radius: 25px;
+    position: absolute;
+    left:600px;
+    top:500px;
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    display: inline; 
+    background-color: darkcyan;
+ }
+.searchicon{
+    width: 25px;
+    height: 15px;
+}
+.input1{
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+}
+.foot{
+    width: 100%;
+    height: 50px;
+}

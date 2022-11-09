@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMBERSHIP</title>
+    <link rel="stylesheet" href="{% static 'styles/membership.css' %}">
+</head>
+<body>
+    <div class="nav">
+        <div>
+            <ul>
+                <li><a class="a1"  href="http://127.0.0.1:8000/user/home"> Home</a></li>
+                <li><a class="a1" href="http://127.0.0.1:8000/user/packages"> Packages</a></li>
+                <li><a class="a1" href="http://127.0.0.1:8000/user/thingstodo"> Things to do</a></li>
+                <li><a class="a1" href="http://127.0.0.1:8000/user/contact"> Contact</a></li>
+                <li><a class="a1" href="http://127.0.0.1:8000/user/membership">Membership</a> </li>
+                <li><button class="button1">Book Now</button></li>
+            </ul>
+        </div>
+        <div>
+            <img class="navimg" src="{% static 'images/ss.png' %}">
+        </div>
+        </div>
+        <div class="bgimg">
+            <div class="div1">
+                <h2 class="text1">Effortlessly plan and book your trip with a card</h2>
+                <h4 class="text2">This Membership Card allows guests to have access to holiday in any of the available locations within a period of 2 years. 
+                    With this card, members won't have to pay a penny for the entire Travel experience including the activities and overnight stay. 
+                    As of now for being a part of the tribe you 
+                    will have three card options which include silver, gold, and platinum cards.</h4>
+                <button class="button2">
+                    VIEW CARDS
+                </button>
+                </div>
+             <div class="div_card">
+                <ul>
+                    <li><img class="card" src="{% static 'images/MP.png' %}"> </li>
+                    <li><img class="card" src="{% static 'images/gold-f.png' %}"> </li>
+                    <li><img class="card" src="{% static 'images/MS.png' %}"> </li>
+                </ul>
+            </div>
+        </div>
+            <div>
+                <h6 class="text3">
+                    Benefits of buying the membership!
+                </h6>
+                <div class="maincard">
+                <div class="card2">
+                    <img class="benifit_img" src="https://tentgram.com/assets/images/compass.svg">
+                   <h6 class="textcard">GIFT YOUR CARD</h6>
+                   <h4 class="textcard2">You can gift a trip to your loved ones</h4> 
+                </div>
+                <div class="card3">
+                    <img class="benifit_img" src="https://tentgram.com/assets/images/backpack.svg">
+                    <h6 class="textcard">SAVE MONEY</h6> 
+                    <h4 class="textcard2">Cost effective way to travel and experience munnar.</h4>
+                </div>
+                <div class="card4">
+                    <img class="benifit_img" src="https://tentgram.com/assets/images/earth.svg">
+                    <h6 class="textcard">EASY PEASY</h6> 
+                    <h4 class="textcard2">Effortlessly plan and book your trip.</h4>
+                </div>
+            </div>
+            </div>
+            <!-- <div class="card1">
+                <img src="{% static 'images/MP.png' %}">
+                <div class="container">
+                  <h4><b>John Doe</b></h4>
+                  <p>Architect & Engineer</p>
+                </div>
+              </div> -->
+</body>
+</html>
